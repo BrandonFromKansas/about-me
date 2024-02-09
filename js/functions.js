@@ -15,13 +15,11 @@ function dogShoes() {
         alert("No worries, my dog hates wearing them too. He refuses to move until I've taken them off."); 
     }
 }
-
 //dogShoes()
 
 
 
 //Lab 07 code attempt 2
-
 function petName() {
     let helloPet = prompt("What is your pet's name?");
     if (helloPet) {
@@ -32,11 +30,45 @@ function petName() {
         return "No worries, pets are not for everyone!";
     }
 }
-petName()
+//petName()
+
+
+
+//Lab 08 code attempt: Loops
+function favoriteColor() {
+
+    let numberOfGuesses = 0;
+
+    while ( numberOfGuesses < 2 ) {
+        let answer = prompt("What is your favorite color?");
+        if( answer != "black") {
+            alert("Not bad. Good choice.")
+            numberOfGuesses++;
+        }
+        else {
+            alert("Oh YEAH!");
+            break;
+        }
+    }
+    document.write("Black is definitely the best!")
+}
+favoriteColor()
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+//ALL OF THE ONES BELOW ARE WORKS IN PROGRESS
 /*
     Function Name: takeDogsForWalk
     Parameter:
