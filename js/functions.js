@@ -26,7 +26,8 @@ function petName() {
         document.write("That's a great name for a pet!");
         return "Great name for a pet!";
     } else {
-        document.write("No worries, pets are not for everyone!");
+        document.write("Pets can be kinda messy.")
+        alert("No worries, pets are not for everyone!");
         return "No worries, pets are not for everyone!";
     }
 }
