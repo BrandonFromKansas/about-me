@@ -1,10 +1,10 @@
-//let color = prompt("What color would you paint your dog?");
+let color = prompt("What color would you paint your dog?");
 
-//document.write("Heck yeah, " + color + " is an awesome color!\n");
+document.write("Heck yeah, " + color + " is an awesome color!\n");
 
-//let fish = prompt("How many fish did you catch?");
+let fish = prompt("How many fish did you catch?");
 
-//document.write("Damn, " + fish + " is a lot of fish!");
+document.write("Damn, " + fish + " is a lot of fish!");
 
 
 
@@ -55,4 +55,4 @@ function doYouWatchShameless() {
     if( shameless ) { return "Awesome, me too."; }
     else { return "I don't blame you. It's a heavy watch sometimes."; }
 }
-//doYouWatchShameless()
+doYouWatchShameless()
