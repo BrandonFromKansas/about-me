@@ -1,10 +1,39 @@
-let color = prompt("What color would you paint your dog?");
+//let color = prompt("What color would you paint your dog?");
 
-document.write("Heck yeah, " + color + " is an awesome color!\n");
+//document.write("Heck yeah, " + color + " is an awesome color!\n");
 
-let fish = prompt("How many fish did you catch?");
+//let fish = prompt("How many fish did you catch?");
 
-document.write("Damn, " + fish + " is a lot of fish!");
+//document.write("Damn, " + fish + " is a lot of fish!");
+
+
+//Lab 07 code attempt
+function dogShoes() {
+    if (confirm ("Have you tried making your dog wear booties during walks? ")) {
+        document.write("How did you do it?! Mine got so fed up that he just sits down until I take them off. ");
+    } else {
+        alert("No worries, my dog hates wearing them too. He refuses to move until I've taken them off."); 
+    }
+}
+
+//dogShoes()
+
+
+
+//Lab 07 code attempt 2
+
+function petName() {
+    let helloPet = prompt("What is your pet's name?");
+    if (helloPet) {
+        document.write("That's a great name for a pet!");
+        return "Great name for a pet!";
+    } else {
+        document.write("No worries, pets are not for everyone!");
+        return "No worries, pets are not for everyone!";
+    }
+}
+petName()
+
 
 
 
@@ -43,16 +72,3 @@ function goSwimming( person ) {
 //goSwimming("Amber"); 
 //goSwimming();
 
-
-
-
-
-
-
-
-function doYouWatchShameless() {
-    let shameless = confirm("Do you watch the TV show, Shameless?");
-    if( shameless ) { return "Awesome, me too."; }
-    else { return "I don't blame you. It's a heavy watch sometimes."; }
-}
-doYouWatchShameless()
