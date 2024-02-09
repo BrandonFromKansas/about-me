@@ -20,9 +20,16 @@ header {
     text-align: center;
 }
 
+main {
+    background-color: rgb(180, 172, 174);
+    color: rgb(22, 116, 42);
+    padding: 10px;
+    text-align:left;
+}
+
 nav {
-    background-color:greenyellow;
+    background-color:rgb(80, 232, 50);
     color:wheat;
     padding: 5px;
-    text-align:end;
+    text-align:left; 
 }
