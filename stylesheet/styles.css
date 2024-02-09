@@ -20,6 +20,17 @@ header {
     text-align: center;
 }
 
+
+img {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border: 5px solid yellow; 
+    width: 300px;
+    height: 300px;
+}
+
+
 main {
     background-color: rgb(180, 172, 174);
     color: rgb(22, 116, 42);
